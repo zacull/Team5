@@ -13,7 +13,7 @@
 <meta name="keywords" content="">
 <meta name="google-site-verification"
 	content="3eLg1zfxeZ_oO6oOOsvIxbtcW-FtDsViPVm7-CYOl8w">
-<title>만개의 레시피</title>
+<title>TEAM5_만개의레시피</title>
 <meta property="kakao:title" content="만개의 레시피">
 <meta property="kakao:description" content="">
 <script type="text/javascript" async=""
@@ -457,7 +457,7 @@ transform
 			height="0" width="0" style="display: none; visibility: hidden"></iframe>
 	</noscript>
 	<div class="nav_etc">
-		<a href="./index.jsp"><img src="http://recipe1.ezmember.co.kr/img/logo3.png"></a>
+		<a href="../index.jsp"><img src="http://recipe1.ezmember.co.kr/img/logo3.png"></a>
 	</div>
 	<script>
 		$(function() {
