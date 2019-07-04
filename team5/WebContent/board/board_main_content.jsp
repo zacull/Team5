@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>Insert title here</title>
+<title>TEAM5_만개의레시피</title>
 <link rel="stylesheet" type="text/css" href="http://recipe1.ezmember.co.kr/static/css/bootstrap_20180417.css" />
 <link rel="stylesheet" type="text/css" href="/static/css/font.css" />
 <link rel="stylesheet" type="text/css" href="/static/css/font-awesome.min.css" />
