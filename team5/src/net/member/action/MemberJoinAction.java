@@ -21,11 +21,11 @@ public class MemberJoinAction implements Action {
 
 		boolean result=false;
 
-		member.setId(request.getParameter("MEMBER_ID"));
-		member.setPw(request.getParameter("MEMBER_PW"));
-		member.setEmail(request.getParameter("MEMBER_EMAIL"));
-		member.setNick(request.getParameter("MEMBER_NICK"));
-		member.setSex(request.getParameter("MEMBER_SEX"));
+		member.setId(request.getParameter("id"));
+		member.setPw(request.getParameter("pw"));
+		member.setEmail(request.getParameter("email"));
+		member.setNick(request.getParameter("nick"));
+		member.setSex(request.getParameter("sex"));
 
 		result=memberdao.joinMember(member);
 
