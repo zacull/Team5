@@ -51,6 +51,7 @@ public class MemberLoginAction implements Action {
    		forward.setRedirect(true);
    		forward.setPath("./BoardContent.bo");
    		return forward;
-}
+
+	}
 
 }

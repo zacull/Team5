@@ -132,7 +132,7 @@ function doSubmit()
         return false;
     }
     return true;
-}
+} 
 </script>
     <div class="container_etc" style="width:460px;">
       <h2>회원가입</h2>

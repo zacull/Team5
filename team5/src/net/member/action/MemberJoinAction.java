@@ -38,6 +38,7 @@ public class MemberJoinAction implements Action {
 		forward.setRedirect(true);
 		forward.setPath("./MemberLogin.me");
 		return forward;
+		
 	}
 
 }
