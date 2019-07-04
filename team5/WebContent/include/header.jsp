@@ -61,7 +61,7 @@ function doRTKeyword()
                     </div>
                 </div>
                 <ul class="gnb_right">
-                                        <li><a href="./Login.me"><img src="http://recipe1.ezmember.co.kr/img/ico_user.png" alt="로그인"></a></li>
+                                        <li><a href="./MemberLogin.me"><img src="http://recipe1.ezmember.co.kr/img/ico_user.png" alt="로그인"></a></li>
                                         <li>
                         <a id="btnTopWrite" href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="레시피등록" data-original-title="레시피등록"><img src="http://recipe1.ezmember.co.kr/img/tmn_write.png"></a>
                         <div class="write_layer document_common_layer" style="display:none;left:-230px;">
@@ -387,7 +387,7 @@ function setRecvDiv(mode)
 
     $.ajax({
         type: "get",
-        url: "../index.jsp",
+        url: "/index.html",
         data: "q_mode=recvDiv&article="+mode,
         success: function(result) {
             if(result)
