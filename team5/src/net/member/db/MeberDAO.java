@@ -3,9 +3,9 @@ package net.member.db;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 
-import javax.naming.Context;
-import javax.naming.InitialContext;
+import javax.naming.*;
 import javax.sql.DataSource;
 
 public class MeberDAO {
@@ -22,5 +22,17 @@ public class MeberDAO {
 			System.out.println("DB 연결 실패 : " + ex);
 			return;
 		}
+	}
+	
+	//회원가입
+	public boolean joinMember(MemberBean member){
+		
+		return false;
+	}
+	
+	//유저로그인확인
+	public int isMember(MemberBean member){
+		
+		return 0;
 	}
 }
