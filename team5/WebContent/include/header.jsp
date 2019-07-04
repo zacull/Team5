@@ -387,7 +387,7 @@ function setRecvDiv(mode)
 
     $.ajax({
         type: "get",
-        url: "/index.html",
+        url: "../index.jsp",
         data: "q_mode=recvDiv&article="+mode,
         success: function(result) {
             if(result)
