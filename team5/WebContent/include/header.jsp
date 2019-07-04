@@ -43,7 +43,7 @@ function doRTKeyword()
     <div class="gnb">
         <div class="gnb_top_wrap">
             <div class="gnb_top">
-                <h1><a href="/index.html"><img src="http://recipe1.ezmember.co.kr/img/logo4.png" alt="로고" ></a></h1>
+                <h1><a href="./index.jsp"><img src="http://recipe1.ezmember.co.kr/img/logo4.png" alt="로고" ></a></h1>
                 <div class="gnb_search">
                     <form id="frmTopRecipeSearch" method="get" action="/recipe/list.html">
                     <div class="input-group">
