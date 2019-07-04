@@ -32,7 +32,7 @@ public class MemberController extends HttpServlet {
 		} else if(command.equals("/MemberJoin.me")){
 			forward=new ActionForward();
 			forward.setRedirect(false);
-			forward.setPath("./member/member_joinForm.jsp");
+			forward.setPath("./member/member_joinagree.jsp");
 		} else if(command.equals("/MemberJoinAction.me")){
 			action = new MemberJoinAction();
 			try{

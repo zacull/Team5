@@ -457,7 +457,7 @@ transform
 			height="0" width="0" style="display: none; visibility: hidden"></iframe>
 	</noscript>
 	<div class="nav_etc">
-		<a href="../index.jsp"><img src="http://recipe1.ezmember.co.kr/img/logo3.png"></a>
+		<a href="./index.jsp"><img src="http://recipe1.ezmember.co.kr/img/logo3.png"></a>
 	</div>
 	<script>
 		$(function() {
@@ -634,7 +634,7 @@ transform
 
 			<div class="etc_line"></div>
 			<div class="join_btn">
-				<a href="/user/join.html">회원가입</a>
+				<a href="./MemberJoin.me">회원가입</a>
 
 			</div>
 
