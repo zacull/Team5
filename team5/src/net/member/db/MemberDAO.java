@@ -26,6 +26,30 @@ public class MemberDAO {
 
 	//회원가입
 	public boolean joinMember(MemberBean member){
+		String sql="INSERT INTO MEMBER VALUES (?,?,?,?,?,?,?)";
+		int result=0;
+
+		try{
+			pstmt=con.prepareStatement(sql);
+			pstmt.setString(1, member.getId());
+			pstmt.setString(2, member.getPw());
+			pstmt.setString(3, member.getEmail());
+			pstmt.setString(4, member.getNick());
+			pstmt.setString(5, member.getSex());
+			pstmt.setString(6, "");
+			pstmt.setString(7, "");
+
+			result=pstmt.executeUpdate();
+
+			if(result!=0){
+				return true;
+			}
+		}catch(Exception ex){
+			System.out.println("joinMember 에러: " + ex);			
+		}finally{
+			if(rs!=null) try{rs.close();}catch(SQLException ex){}
+			if(pstmt!=null) try{pstmt.close();}catch(SQLException ex){}
+		}
 
 		return false;
 	}
